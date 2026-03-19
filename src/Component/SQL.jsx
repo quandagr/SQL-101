@@ -58,3 +58,19 @@ values
   (502,1,3,103),
   (503,1,4,104),
   (504,1,5,105);
+
+
+  update sales
+ set quantity= '10'
+ where customer_id=4;
+
+ update products
+ set price=price * 1.15;
+ 
+ delete from sales
+ where sale_id = 504;
+
+ delete from sales
+ set quantity
+
+ delete from sales;
